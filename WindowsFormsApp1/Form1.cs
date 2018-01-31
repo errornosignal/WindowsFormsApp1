@@ -87,7 +87,12 @@ namespace WindowsFormsApp1
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            int one = 1;
+            if (one == 1)
+            {
+                this.Close();
+            }
         }
+
     }
 }
