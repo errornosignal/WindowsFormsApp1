@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
 
             var area = length * width;
 
-            this.ResultsTextBox.Text = $"The Area is : {area:F2}";
+            this.ResultsTextBox.Text = $"{area:F2}";
         }
 
         private void CalculateShippingChargesButton_Click(object sender, EventArgs e)
@@ -87,11 +87,7 @@ namespace WindowsFormsApp1
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            int one = 1;
-            if (one == 1)
-            {
-                this.Close();
-            }
+            this.Close();
         }
 
     }
